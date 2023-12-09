@@ -1090,3 +1090,20 @@ func (c *bls12381MapG2) Run(input []byte) ([]byte, error) {
 	// Encode the G2 point to 256 bytes
 	return g.EncodePoint(r), nil
 }
+
+// Poseidon implemented as a native contract.
+type poseidonhash struct{}
+
+// RequiredGas returns the gas required to execute the pre-compiled contract.
+//
+// This method does not require any overflow checking as the input size gas costs
+// required for anything significant is so high it's impossible to pay for.
+func (c *poseidonhash) RequiredGas(input []byte) uint64 {
+	return uint64(len(input)+31)/32*params.PoseidonPerWordGas + params.PoseidonBaseGas
+}
+func (c *poseidonhash) Run(input []byte) ([]byte, error) {
+	// inputBytes, err := hex.DecodeString(vector.bytes)
+	res, err := poseidon.HashBytes(input)
+	// h := sha256.Sum256(input)
+	return res.Bytes(), nil
+}
