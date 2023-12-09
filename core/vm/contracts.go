@@ -32,8 +32,9 @@ import (
 	"errors"
 	"fmt"
 	"math/big"
+	"encoding/hex"
 
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/params"
 	"github.com/ava-labs/subnet-evm/precompile/contract"
 	"github.com/ava-labs/subnet-evm/precompile/modules"
 	"github.com/ava-labs/subnet-evm/vmerrs"
@@ -45,6 +46,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto/bn256"
 	big2 "github.com/holiman/big"
 	"golang.org/x/crypto/ripemd160"
+	"github.com/iden3/go-iden3-crypto/poseidon"
 )
 
 // PrecompiledContract is the basic interface for native Go contracts. The implementation
