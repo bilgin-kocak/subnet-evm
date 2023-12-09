@@ -32,9 +32,8 @@ import (
 	"errors"
 	"fmt"
 	"math/big"
-	"encoding/hex"
 
-	"github.com/bilgin-kocak/subnet-evm/params"
+	"github.com/ava-labs/subnet-evm/params"
 	"github.com/ava-labs/subnet-evm/precompile/contract"
 	"github.com/ava-labs/subnet-evm/precompile/modules"
 	"github.com/ava-labs/subnet-evm/vmerrs"
@@ -91,6 +90,7 @@ var PrecompiledContractsIstanbul = map[common.Address]contract.StatefulPrecompil
 	common.BytesToAddress([]byte{7}): newWrappedPrecompiledContract(&bn256ScalarMulIstanbul{}),
 	common.BytesToAddress([]byte{8}): newWrappedPrecompiledContract(&bn256PairingIstanbul{}),
 	common.BytesToAddress([]byte{9}): newWrappedPrecompiledContract(&blake2F{}),
+	common.BytesToAddress([]byte{9}): newWrappedPrecompiledContract(&poseidonhash{}),
 }
 
 // PrecompiledContractsBerlin contains the default set of pre-compiled Ethereum
@@ -105,6 +105,7 @@ var PrecompiledContractsBerlin = map[common.Address]contract.StatefulPrecompiled
 	common.BytesToAddress([]byte{7}): newWrappedPrecompiledContract(&bn256ScalarMulIstanbul{}),
 	common.BytesToAddress([]byte{8}): newWrappedPrecompiledContract(&bn256PairingIstanbul{}),
 	common.BytesToAddress([]byte{9}): newWrappedPrecompiledContract(&blake2F{}),
+	common.BytesToAddress([]byte{9}): newWrappedPrecompiledContract(&poseidonhash{}),
 }
 
 // PrecompiledContractsBLS contains the set of pre-compiled Ethereum
@@ -1099,11 +1100,11 @@ type poseidonhash struct{}
 // This method does not require any overflow checking as the input size gas costs
 // required for anything significant is so high it's impossible to pay for.
 func (c *poseidonhash) RequiredGas(input []byte) uint64 {
-	return uint64(len(input)+31)/32*params.PoseidonPerWordGas + params.PoseidonBaseGas
+	return uint64(len(input)+31)/32*3 + 15
 }
 func (c *poseidonhash) Run(input []byte) ([]byte, error) {
 	// inputBytes, err := hex.DecodeString(vector.bytes)
-	res, err := poseidon.HashBytes(input)
+	res, _ := poseidon.HashBytes(input)
 	// h := sha256.Sum256(input)
 	return res.Bytes(), nil
 }
