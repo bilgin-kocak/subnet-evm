@@ -33,11 +33,11 @@ import (
 	mrand "math/rand"
 	"sync/atomic"
 
-	"github.com/ava-labs/subnet-evm/consensus"
-	"github.com/ava-labs/subnet-evm/core/rawdb"
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/ethdb"
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/consensus"
+	"github.com/bilgin-kocak/subnet-evm/core/rawdb"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/ethdb"
+	"github.com/bilgin-kocak/subnet-evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/lru"
 )

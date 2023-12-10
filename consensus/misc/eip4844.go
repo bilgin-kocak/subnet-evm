@@ -19,7 +19,7 @@ package misc
 import (
 	"math/big"
 
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/params"
 )
 
 var (

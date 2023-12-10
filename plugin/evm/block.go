@@ -13,12 +13,12 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/core/rawdb"
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/subnet-evm/predicate"
+	"github.com/bilgin-kocak/subnet-evm/core"
+	"github.com/bilgin-kocak/subnet-evm/core/rawdb"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/precompile/precompileconfig"
+	"github.com/bilgin-kocak/subnet-evm/predicate"
 
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/snow/choices"

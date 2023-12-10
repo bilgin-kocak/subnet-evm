@@ -10,8 +10,8 @@ import (
 	"github.com/ava-labs/avalanchego/codec"
 	"github.com/ava-labs/avalanchego/ids"
 
-	"github.com/ava-labs/subnet-evm/internal/ethapi"
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/bilgin-kocak/subnet-evm/internal/ethapi"
+	"github.com/bilgin-kocak/subnet-evm/rpc"
 
 	"github.com/ethereum/go-ethereum/log"
 )

@@ -31,9 +31,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/subnet-evm/accounts"
-	"github.com/ava-labs/subnet-evm/accounts/external"
-	"github.com/ava-labs/subnet-evm/accounts/keystore"
+	"github.com/bilgin-kocak/subnet-evm/accounts"
+	"github.com/bilgin-kocak/subnet-evm/accounts/external"
+	"github.com/bilgin-kocak/subnet-evm/accounts/keystore"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -29,8 +29,8 @@ package shutdowncheck
 import (
 	"time"
 
-	"github.com/ava-labs/subnet-evm/core/rawdb"
-	"github.com/ava-labs/subnet-evm/ethdb"
+	"github.com/bilgin-kocak/subnet-evm/core/rawdb"
+	"github.com/bilgin-kocak/subnet-evm/ethdb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

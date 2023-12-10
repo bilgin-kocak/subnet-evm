@@ -1,4 +1,4 @@
-module github.com/ava-labs/subnet-evm
+module github.com/bilgin-kocak/subnet-evm
 
 go 1.20
 

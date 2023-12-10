@@ -6,10 +6,10 @@ package rewardmanager
 import (
 	"testing"
 
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/subnet-evm/precompile/testutils"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/bilgin-kocak/subnet-evm/precompile/allowlist"
+	"github.com/bilgin-kocak/subnet-evm/precompile/precompileconfig"
+	"github.com/bilgin-kocak/subnet-evm/precompile/testutils"
+	"github.com/bilgin-kocak/subnet-evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"go.uber.org/mock/gomock"
 )

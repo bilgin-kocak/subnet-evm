@@ -27,8 +27,8 @@
 package vm
 
 import (
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/vmerrs"
+	"github.com/bilgin-kocak/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/holiman/uint256"

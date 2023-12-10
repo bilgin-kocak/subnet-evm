@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/params"
 )
 
 func TestCalcBlobFee(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"crypto/ecdsa"
 	"fmt"
 
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/ethclient"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/ethclient"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )
 

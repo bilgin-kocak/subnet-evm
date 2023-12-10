@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/subnet-evm/accounts/keystore"
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/trie/trienode"
+	"github.com/bilgin-kocak/subnet-evm/accounts/keystore"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/trie/trienode"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"

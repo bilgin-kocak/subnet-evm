@@ -9,7 +9,7 @@ import (
 	"time"
 
 	utils_math "github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/subnet-evm/metrics"
+	"github.com/bilgin-kocak/subnet-evm/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

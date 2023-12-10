@@ -2,7 +2,7 @@
 // See the file LICENSE for licensing terms.
 package precompilebind
 
-import "github.com/ava-labs/subnet-evm/accounts/abi/bind"
+import "github.com/bilgin-kocak/subnet-evm/accounts/abi/bind"
 
 // tmplPrecompileData is the data structure required to fill the binding template.
 type tmplPrecompileData struct {
@@ -32,12 +32,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
+	"github.com/bilgin-kocak/subnet-evm/accounts/abi"
 	{{- if .Contract.AllowList}}
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
+	"github.com/bilgin-kocak/subnet-evm/precompile/allowlist"
 	{{- end}}
-	"github.com/ava-labs/subnet-evm/precompile/contract"
-	"github.com/ava-labs/subnet-evm/vmerrs"
+	"github.com/bilgin-kocak/subnet-evm/precompile/contract"
+	"github.com/bilgin-kocak/subnet-evm/vmerrs"
 
 	_ "embed"
 

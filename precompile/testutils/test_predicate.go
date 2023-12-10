@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/bilgin-kocak/subnet-evm/precompile/precompileconfig"
 	"github.com/stretchr/testify/require"
 )
 

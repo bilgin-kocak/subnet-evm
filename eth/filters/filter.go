@@ -32,9 +32,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/subnet-evm/core/bloombits"
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/rpc"
+	"github.com/bilgin-kocak/subnet-evm/core/bloombits"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/rpc"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -33,10 +33,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/precompile/contract"
-	"github.com/ava-labs/subnet-evm/precompile/modules"
-	"github.com/ava-labs/subnet-evm/vmerrs"
+	"github.com/bilgin-kocak/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/precompile/contract"
+	"github.com/bilgin-kocak/subnet-evm/precompile/modules"
+	"github.com/bilgin-kocak/subnet-evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -1100,7 +1100,7 @@ type poseidonhash struct{}
 // This method does not require any overflow checking as the input size gas costs
 // required for anything significant is so high it's impossible to pay for.
 func (c *poseidonhash) RequiredGas(input []byte) uint64 {
-	return uint64(len(input)+31)/32*3 + 15
+	return uint64(len(input)+31)/32*params.PoseidonPerWordGas + params.PoseidonBaseGas
 }
 func (c *poseidonhash) Run(input []byte) ([]byte, error) {
 	// inputBytes, err := hex.DecodeString(vector.bytes)

@@ -14,8 +14,8 @@ import (
 	"unicode"
 
 	// Force-load native and js packages, to trigger registration
-	_ "github.com/ava-labs/subnet-evm/eth/tracers/js"
-	_ "github.com/ava-labs/subnet-evm/eth/tracers/native"
+	_ "github.com/bilgin-kocak/subnet-evm/eth/tracers/js"
+	_ "github.com/bilgin-kocak/subnet-evm/eth/tracers/native"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

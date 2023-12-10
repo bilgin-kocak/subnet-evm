@@ -29,8 +29,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/ava-labs/subnet-evm/ethdb"
-	"github.com/ava-labs/subnet-evm/ethdb/dbtest"
+	"github.com/bilgin-kocak/subnet-evm/ethdb"
+	"github.com/bilgin-kocak/subnet-evm/ethdb/dbtest"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )

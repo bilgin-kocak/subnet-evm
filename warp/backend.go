@@ -15,7 +15,7 @@ import (
 	"github.com/ava-labs/avalanchego/utils/crypto/bls"
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/subnet-evm/ethdb"
+	"github.com/bilgin-kocak/subnet-evm/ethdb"
 	"github.com/ethereum/go-ethereum/log"
 )
 

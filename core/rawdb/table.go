@@ -27,7 +27,7 @@
 package rawdb
 
 import (
-	"github.com/ava-labs/subnet-evm/ethdb"
+	"github.com/bilgin-kocak/subnet-evm/ethdb"
 )
 
 // table is a wrapper around a database that prefixes each key access with a pre-

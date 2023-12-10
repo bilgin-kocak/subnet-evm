@@ -4,9 +4,9 @@
 package feemanager
 
 import (
-	"github.com/ava-labs/subnet-evm/commontype"
-	"github.com/ava-labs/subnet-evm/precompile/allowlist"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
+	"github.com/bilgin-kocak/subnet-evm/commontype"
+	"github.com/bilgin-kocak/subnet-evm/precompile/allowlist"
+	"github.com/bilgin-kocak/subnet-evm/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 )
 

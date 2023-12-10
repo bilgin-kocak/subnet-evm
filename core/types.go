@@ -29,9 +29,9 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ava-labs/subnet-evm/core/state"
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/core/vm"
+	"github.com/bilgin-kocak/subnet-evm/core/state"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

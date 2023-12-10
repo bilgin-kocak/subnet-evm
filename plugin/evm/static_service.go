@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/subnet-evm/core"
+	"github.com/bilgin-kocak/subnet-evm/core"
 	"github.com/ethereum/go-ethereum/common"
 )
 

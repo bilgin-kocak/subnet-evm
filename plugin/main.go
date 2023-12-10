@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/subnet-evm/plugin/evm"
-	"github.com/ava-labs/subnet-evm/plugin/runner"
+	"github.com/bilgin-kocak/subnet-evm/plugin/evm"
+	"github.com/bilgin-kocak/subnet-evm/plugin/runner"
 )
 
 func main() {

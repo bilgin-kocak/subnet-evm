@@ -9,10 +9,10 @@ import (
 
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/subnet-evm/accounts/abi"
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/precompile/contract"
-	"github.com/ava-labs/subnet-evm/vmerrs"
+	"github.com/bilgin-kocak/subnet-evm/accounts/abi"
+	"github.com/bilgin-kocak/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/precompile/contract"
+	"github.com/bilgin-kocak/subnet-evm/vmerrs"
 
 	_ "embed"
 

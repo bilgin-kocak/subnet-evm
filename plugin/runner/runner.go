@@ -12,7 +12,7 @@ import (
 	"github.com/ava-labs/avalanchego/utils/ulimit"
 	"github.com/ava-labs/avalanchego/vms/rpcchainvm"
 
-	"github.com/ava-labs/subnet-evm/plugin/evm"
+	"github.com/bilgin-kocak/subnet-evm/plugin/evm"
 )
 
 func Run(versionStr string) {

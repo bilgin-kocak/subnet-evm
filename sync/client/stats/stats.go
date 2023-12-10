@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/subnet-evm/metrics"
-	"github.com/ava-labs/subnet-evm/plugin/evm/message"
+	"github.com/bilgin-kocak/subnet-evm/metrics"
+	"github.com/bilgin-kocak/subnet-evm/plugin/evm/message"
 )
 
 var (

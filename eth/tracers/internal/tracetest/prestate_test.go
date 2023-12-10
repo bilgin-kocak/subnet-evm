@@ -34,12 +34,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/core/rawdb"
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/core/vm"
-	"github.com/ava-labs/subnet-evm/eth/tracers"
-	"github.com/ava-labs/subnet-evm/tests"
+	"github.com/bilgin-kocak/subnet-evm/core"
+	"github.com/bilgin-kocak/subnet-evm/core/rawdb"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/core/vm"
+	"github.com/bilgin-kocak/subnet-evm/eth/tracers"
+	"github.com/bilgin-kocak/subnet-evm/tests"
 	"github.com/ethereum/go-ethereum/common"
 )
 

@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/subnet-evm/precompile/modules"
-	"github.com/ava-labs/subnet-evm/precompile/precompileconfig"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/bilgin-kocak/subnet-evm/precompile/modules"
+	"github.com/bilgin-kocak/subnet-evm/precompile/precompileconfig"
+	"github.com/bilgin-kocak/subnet-evm/utils"
 	"github.com/ethereum/go-ethereum/common"
 )
 

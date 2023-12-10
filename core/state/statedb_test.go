@@ -39,8 +39,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ava-labs/subnet-evm/core/rawdb"
-	"github.com/ava-labs/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/core/rawdb"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
 	"github.com/ethereum/go-ethereum/common"
 )
 

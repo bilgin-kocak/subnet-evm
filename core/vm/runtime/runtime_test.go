@@ -33,21 +33,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi"
-	"github.com/ava-labs/subnet-evm/consensus"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/core/rawdb"
-	"github.com/ava-labs/subnet-evm/core/state"
-	"github.com/ava-labs/subnet-evm/core/types"
-	"github.com/ava-labs/subnet-evm/core/vm"
-	"github.com/ava-labs/subnet-evm/eth/tracers"
-	"github.com/ava-labs/subnet-evm/eth/tracers/logger"
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/accounts/abi"
+	"github.com/bilgin-kocak/subnet-evm/consensus"
+	"github.com/bilgin-kocak/subnet-evm/core"
+	"github.com/bilgin-kocak/subnet-evm/core/rawdb"
+	"github.com/bilgin-kocak/subnet-evm/core/state"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/core/vm"
+	"github.com/bilgin-kocak/subnet-evm/eth/tracers"
+	"github.com/bilgin-kocak/subnet-evm/eth/tracers/logger"
+	"github.com/bilgin-kocak/subnet-evm/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ava-labs/subnet-evm/eth/tracers/js"
+	_ "github.com/bilgin-kocak/subnet-evm/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

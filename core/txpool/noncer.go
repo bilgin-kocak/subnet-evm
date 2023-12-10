@@ -29,7 +29,7 @@ package txpool
 import (
 	"sync"
 
-	"github.com/ava-labs/subnet-evm/core/state"
+	"github.com/bilgin-kocak/subnet-evm/core/state"
 	"github.com/ethereum/go-ethereum/common"
 )
 

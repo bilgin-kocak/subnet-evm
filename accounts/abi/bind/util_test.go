@@ -33,10 +33,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind/backends"
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/core/types"
+	"github.com/bilgin-kocak/subnet-evm/accounts/abi/bind"
+	"github.com/bilgin-kocak/subnet-evm/accounts/abi/bind/backends"
+	"github.com/bilgin-kocak/subnet-evm/core"
+	"github.com/bilgin-kocak/subnet-evm/core/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 )

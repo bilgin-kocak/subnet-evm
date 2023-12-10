@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/subnet-evm/params"
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/bilgin-kocak/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/utils"
 
 	"github.com/ava-labs/avalanchego/snow"
 )

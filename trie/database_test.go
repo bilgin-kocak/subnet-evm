@@ -27,9 +27,9 @@
 package trie
 
 import (
-	"github.com/ava-labs/subnet-evm/core/rawdb"
-	"github.com/ava-labs/subnet-evm/ethdb"
-	"github.com/ava-labs/subnet-evm/trie/triedb/hashdb"
+	"github.com/bilgin-kocak/subnet-evm/core/rawdb"
+	"github.com/bilgin-kocak/subnet-evm/ethdb"
+	"github.com/bilgin-kocak/subnet-evm/trie/triedb/hashdb"
 )
 
 // newTestDatabase initializes the trie database with specified scheme.

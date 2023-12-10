@@ -35,9 +35,9 @@ import (
 
 	_ "embed"
 
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind"
-	"github.com/ava-labs/subnet-evm/accounts/abi/bind/precompilebind"
-	"github.com/ava-labs/subnet-evm/internal/flags"
+	"github.com/bilgin-kocak/subnet-evm/accounts/abi/bind"
+	"github.com/bilgin-kocak/subnet-evm/accounts/abi/bind/precompilebind"
+	"github.com/bilgin-kocak/subnet-evm/internal/flags"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/urfave/cli/v2"

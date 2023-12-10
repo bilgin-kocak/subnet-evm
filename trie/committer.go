@@ -29,7 +29,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/ava-labs/subnet-evm/trie/trienode"
+	"github.com/bilgin-kocak/subnet-evm/trie/trienode"
 	"github.com/ethereum/go-ethereum/common"
 )
 

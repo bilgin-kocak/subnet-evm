@@ -4,7 +4,7 @@
 package params
 
 import (
-	"github.com/ava-labs/subnet-evm/utils"
+	"github.com/bilgin-kocak/subnet-evm/utils"
 )
 
 var (

@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ava-labs/subnet-evm/internal/version"
-	"github.com/ava-labs/subnet-evm/params"
+	"github.com/bilgin-kocak/subnet-evm/internal/version"
+	"github.com/bilgin-kocak/subnet-evm/params"
 	"github.com/urfave/cli/v2"
 )
 

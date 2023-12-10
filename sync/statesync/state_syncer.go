@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/subnet-evm/core/state/snapshot"
-	"github.com/ava-labs/subnet-evm/ethdb"
-	syncclient "github.com/ava-labs/subnet-evm/sync/client"
-	"github.com/ava-labs/subnet-evm/trie"
+	"github.com/bilgin-kocak/subnet-evm/core/state/snapshot"
+	"github.com/bilgin-kocak/subnet-evm/ethdb"
+	syncclient "github.com/bilgin-kocak/subnet-evm/sync/client"
+	"github.com/bilgin-kocak/subnet-evm/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/sync/errgroup"
 )

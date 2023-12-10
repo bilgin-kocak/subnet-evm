@@ -29,10 +29,10 @@ package ethconfig
 import (
 	"time"
 
-	"github.com/ava-labs/subnet-evm/core"
-	"github.com/ava-labs/subnet-evm/core/txpool"
-	"github.com/ava-labs/subnet-evm/eth/gasprice"
-	"github.com/ava-labs/subnet-evm/miner"
+	"github.com/bilgin-kocak/subnet-evm/core"
+	"github.com/bilgin-kocak/subnet-evm/core/txpool"
+	"github.com/bilgin-kocak/subnet-evm/eth/gasprice"
+	"github.com/bilgin-kocak/subnet-evm/miner"
 	"github.com/ethereum/go-ethereum/common"
 )
 

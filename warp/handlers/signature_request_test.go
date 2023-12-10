@@ -17,8 +17,8 @@ import (
 	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
 	"github.com/ava-labs/avalanchego/utils/crypto/bls"
 	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/subnet-evm/plugin/evm/message"
-	"github.com/ava-labs/subnet-evm/warp"
+	"github.com/bilgin-kocak/subnet-evm/plugin/evm/message"
+	"github.com/bilgin-kocak/subnet-evm/warp"
 	"github.com/stretchr/testify/require"
 )
 

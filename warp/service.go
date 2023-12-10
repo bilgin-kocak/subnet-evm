@@ -11,9 +11,9 @@ import (
 	"github.com/ava-labs/avalanchego/ids"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
 	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/subnet-evm/peer"
-	"github.com/ava-labs/subnet-evm/warp/aggregator"
-	"github.com/ava-labs/subnet-evm/warp/validators"
+	"github.com/bilgin-kocak/subnet-evm/peer"
+	"github.com/bilgin-kocak/subnet-evm/warp/aggregator"
+	"github.com/bilgin-kocak/subnet-evm/warp/validators"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
 )
